@@ -1,0 +1,339 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.App {
+  position: absolute !important;
+  left: 0;
+  z-index: 90;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.iphone_box {
+  height: 620px;
+  width: calc(5.26vh * 9);
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
+
+  overflow-x: hidden;
+}
+
+@media only screen and (device-width: 375px) {
+  .iphone_box {
+    width: 100vw !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .am_places_drop {
+    display: none;
+    overflow: hidden;
+  }
+  .circle_box {
+    width: 100vw !important;
+  }
+  .svg_streets {
+    display: none;
+  }
+}
+.am_btmbar {
+  background: #080f56;
+  position: fixed;
+  bottom: 0;
+  width: calc(5.26vh * 9);
+  height: 120px;
+  z-index: 300;
+  display: flex;
+  display: none;
+}
+.am_btmbar_tab {
+  height: 100%;
+  width: calc(100% / 3);
+
+  text-align: center;
+
+  padding-top: 12px;
+}
+.am_btmbar_txt {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 300;
+  font-size: 19px;
+  padding-top: 4px;
+
+  color: white !important;
+}
+.svg_streets {
+  width: 70vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  margin-left: -990px;
+  margin-top: -200px;
+}
+
+.pp_wrapper {
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  transition: 0.3s;
+}
+.pp_search {
+  width: 100% !important;
+  height: 39px !important;
+  background: #f3f3f3 !important;
+  box-shadow: none !important;
+  border-radius: 5px;
+  margin-top: 12px;
+  text-align: left;
+  padding-left: 12px;
+  line-height: 50px;
+}
+
+.circle_box {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  top: 165px !important;
+
+  background: #ffffff;
+  box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.12);
+}
+.tap_bx {
+  width: 40px;
+  height: 6px;
+  background: #a8aeba;
+  opacity: 0.2;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.circle_type_dot {
+  width: 96% !important;
+  height: 85px !important;
+  flex-shrink: 0;
+  /* left: 401px; */
+  /* top: 832px; */
+  background: #ffffff;
+  box-shadow: none !important;
+  border-radius: 6px !important;
+  margin: 0 auto;
+}
+.am_hero_txt {
+  float: left;
+  color: #34364c;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.am_first_highlighted {
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.am_circ_bx {
+  width: 100% !important;
+  text-align: center;
+}
+.am_circ_bx_txt {
+  padding-top: 12px;
+  flex-shrink: 0 !important;
+  text-align: center !important;
+  font-size: 12px;
+  font-weight: 500 !important;
+  color: white !important;
+}
+
+.am_mid_wp {
+  width: calc(5.26vh * 9);
+  display: flex;
+  overflow: hidden;
+}
+.scooterScreen {
+  height: 100vh;
+  flex-shrink: 0;
+  width: 100% !important;
+  background: white;
+}
+.am_goback {
+  width: 30px;
+  height: 30px;
+  left: 26px;
+  top: 642px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.scooterlist {
+  list-style: none;
+  padding-inline-start: 12px;
+}
+.scooterlist li {
+  width: 100%;
+  height: 120px;
+  /* left: 26px; */
+  /* top: 642px; */
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+  padding-left: 12px;
+  padding-top: 8px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.am_hero_txt {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.am_closest_bounding {
+  padding-top: 18px;
+  padding-left: 8px;
+}
+.am_closest_bounding_heading {
+  width: 100%;
+  display: flex;
+}
+.am_closest_bounding_heading_txt {
+  font-weight: 600;
+  padding-left: 12px;
+}
+.am_closest_item {
+  width: 100%;
+  display: flex;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.am_places_drop {
+  background: #0000005c !important;
+  padding: 8px 18px !important;
+  border-radius: 3px;
+  color: white;
+  font-size: 12px;
+  margin-left: 20px;
+  position: absolute;
+  top: 12px;
+  font-size: 15px;
+  display: none !important;
+}
+.am_hidden {
+  display: none;
+}
+.am_places_res_list {
+  list-style: none;
+  padding-inline-start: 12px;
+  padding-inline-end: 12px;
+
+  height: calc(100vh - 120px);
+  overflow-y: scroll;
+}
+.am_places_res_list li {
+  padding-top: 12px;
+  padding-bottom: 8px;
+  text-align: left;
+}
+
+.am_bikeslist {
+  list-style: none;
+  padding-inline-start: 12px;
+  height: calc(100vh - 120px);
+  overflow-y: scroll;
+}
+.am_bikeslist li {
+  padding-top: 12px;
+  padding-bottom: 8px;
+  text-align: left;
+  display: flex;
+}
+
+.am_parkinglist {
+  list-style: none;
+  padding-inline-start: 12px;
+  padding-inline-end: 12px;
+
+  height: calc(100vh - 438px);
+  overflow-y: scroll;
+}
+.am_parklinglist li {
+  padding-top: 12px;
+  padding-bottom: 8px;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  height: 50px;
+  border-bottom: 1px solid #e3f9f5;
+}
+.am_parkinglist ol {
+  list-style: none;
+  list-style-type: none;
+  flex-direction: column;
+  height: 50px;
+  border-bottom: 1px solid #e3f9f5;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  text-align: left;
+}
+.mapboxgl-ctrl-bottom-left .mapboxgl-ctrl {
+  display: none !important;
+}
+
+.am_atlas_res_types_list {
+  padding-top: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.am_atlas_res_types_list div {
+  padding-left: 8x;
+  padding-right: 8px;
+}
+
+.am_tripres_itm {
+  width: 259px;
+  height: 1px;
+
+  background: rgba(7, 40, 58, 0.08);
+  border-radius: 2px;
+}
+.am_tripres_flow_itm {
+  padding: 4px;
+  padding-right: 12px;
+  padding-left: 12px;
+  background: #ff5f01;
+  color: white;
+  display: block;
+  border-radius: 14px;
+  font-size: 12px;
+}
