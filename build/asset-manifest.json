@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c544e56c.chunk.css",
+    "main.js": "/static/js/main.f7eefc50.chunk.js",
+    "main.js.map": "/static/js/main.f7eefc50.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.7ab455d4.js",
+    "runtime~main.js.map": "/static/js/runtime~main.7ab455d4.js.map",
+    "static/css/2.b5fc409c.chunk.css": "/static/css/2.b5fc409c.chunk.css",
+    "static/js/2.383771d9.chunk.js": "/static/js/2.383771d9.chunk.js",
+    "static/js/2.383771d9.chunk.js.map": "/static/js/2.383771d9.chunk.js.map",
+    "static/js/3.4efea2eb.chunk.js": "/static/js/3.4efea2eb.chunk.js",
+    "static/js/3.4efea2eb.chunk.js.map": "/static/js/3.4efea2eb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f0125af777c8f93ccd5cbcfee42fe4ba.js": "/precache-manifest.f0125af777c8f93ccd5cbcfee42fe4ba.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b5fc409c.chunk.css.map": "/static/css/2.b5fc409c.chunk.css.map",
+    "static/css/main.c544e56c.chunk.css.map": "/static/css/main.c544e56c.chunk.css.map",
+    "static/media/Nextbike_logo.png": "/static/media/Nextbike_logo.023cab7c.png",
+    "static/media/drone_empty.png": "/static/media/drone_empty.c5d96a29.png",
+    "static/media/emmy_scooter.png": "/static/media/emmy_scooter.469f9a66.png"
+  }
+}

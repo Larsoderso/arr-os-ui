@@ -16,11 +16,13 @@ import emmy_icon from "./img/emmy_icon.png";
 import emmy_scooter from "./img/emmy_scooter.png";
 
 import empty_state_png from "./img/drone_empty.png";
+import "./styles.css";
+
 
 const MAPBOX_TOKEN =
   "pk.eyJ1IjoibGFyc2RpIiwiYSI6ImNrMXY1NzllOTAwZGYza3RrbWVpeDl1NTMifQ.iFu8GW4UGAtz9wtC3ILchA";
 const MAPBOX_STYLE = "mapbox://styles/mapbox/light-v9";
-import "./styles.css";
+
 
 export default class AppDemo extends Component {
   constructor(props) {

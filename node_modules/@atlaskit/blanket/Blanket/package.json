@@ -1,0 +1,6 @@
+{
+  "name": "@atlaskit/blanket/Blanket",
+  "main": "../dist/cjs/Blanket.js",
+  "module": "../dist/esm/Blanket.js",
+  "types": "../dist/cjs/Blanket.d.ts"
+}

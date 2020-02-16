@@ -1,0 +1,5 @@
+{
+  "name": "@atlaskit/item/types",
+  "main": "../dist/cjs/types.js",
+  "module": "../dist/esm/types.js"
+}
