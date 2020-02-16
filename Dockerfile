@@ -1,3 +1,3 @@
-FROM nginx
-COPY /build/ /var/share/nginx/html
+FROM nginx:alpine
+COPY ./build/ /usr/share/nginx/html
 EXPOSE 80/tcp
