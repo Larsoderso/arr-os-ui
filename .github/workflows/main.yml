@@ -13,8 +13,9 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        echo Add other actions to build,
+        echo Add other actions to build
         echo test, and deploy your project.
+        ls
     - name: Docker Build & Push
       uses: mr-smithers-excellent/docker-build-push@v2
       with:
