@@ -21,11 +21,11 @@ jobs:
         # Name of the Docker image
         image: os-ui
         # Tag override for Docker image
-        tag: os-ui
+        tag: latest
         # Target Docker registry
         registry: dockerregistry.arrive-mobility.com	
         # Location of Dockerfile, if not Dockerfile in root directory
-        dockerfile: .
+        dockerfile: Dockerfile
         # Docker build arguments in format KEY=VALUE,KEY=VALUE
         buildArgs: # optional
         # Docker registry username
