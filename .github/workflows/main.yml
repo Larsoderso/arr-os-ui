@@ -1,0 +1,36 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+    - name: Docker Build & Push
+      uses: mr-smithers-excellent/docker-build-push@v2
+      with:
+        # Name of the Docker image
+        image: os-ui
+        # Tag override for Docker image
+        tag: os-ui
+        # Target Docker registry
+        registry: dockerregistry.arrive-mobility.com	
+        # Location of Dockerfile, if not Dockerfile in root directory
+        dockerfile: # optional, default is Dockerfile
+        # Docker build arguments in format KEY=VALUE,KEY=VALUE
+        buildArgs: # optional
+        # Docker registry username
+        username: # optional
+        # Docker registry password
+        password: # optional
+
+    
