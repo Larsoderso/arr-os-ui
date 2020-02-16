@@ -25,7 +25,7 @@ jobs:
         # Target Docker registry
         registry: dockerregistry.arrive-mobility.com	
         # Location of Dockerfile, if not Dockerfile in root directory
-        dockerfile: # optional, default is Dockerfile
+        dockerfile: .
         # Docker build arguments in format KEY=VALUE,KEY=VALUE
         buildArgs: # optional
         # Docker registry username
